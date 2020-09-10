@@ -4,6 +4,14 @@
     using System.ComponentModel.DataAnnotations;
     public class Student
     {
+        /// <summary>
+        /// ATRIBUTOS
+        /// - Student ID
+        /// - Last name
+        /// - First name
+        /// - Enrollment date
+        /// </summary>
+
         [Key]
         public int StudentID { get; set; }
 
